@@ -2,6 +2,6 @@
 
 https://chat-application-fullstack.onrender.com/
 
-backend - nodejs + mongodb \n
+backend - nodejs + mongodb </br>
 socket.io for realtime updates\n
 frontend - reactjs + tailwindcss (daisyUI)\n
