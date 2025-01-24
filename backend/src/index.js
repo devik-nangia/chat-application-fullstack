@@ -31,7 +31,7 @@ const MONGO_URI = process.env.MONGO_URI
 
 if(process.env.NODE_ENV==="production"){
     //dirname goes to backend
-    app.use(express.static(path.json(__dirname, "../frontend/dist")))
+    app.use(express.static(path.join(__dirname, "../frontend/dist")))
     app.get("*", (req, res)=>{
         res.sendFile(path.join(__dirname, "../frontend", "dist", "index.html"))
     })
